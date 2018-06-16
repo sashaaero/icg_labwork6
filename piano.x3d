@@ -1,0 +1,9 @@
+                var dirName = Application.StartupPath + "\\CONFIG";
+                if (!Directory.Exists(dirName))
+                {
+                    Directory.CreateDirectory(dirName);
+                }
+                else
+                {
+                    System.Console.Write("WTFBRO");
+                }
